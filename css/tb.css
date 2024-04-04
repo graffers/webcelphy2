@@ -1,0 +1,31 @@
+/* Tabel */
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.fl-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.fl-table th, .fl-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.fl-table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+.fl-table tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.fl-table tbody tr:hover {
+    background-color: #f1f1f1;
+    transition: 0.3s;
+}
